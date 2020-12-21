@@ -1,0 +1,30 @@
+git config --global user.name "username"
+git config --global user.email "email@address.here"
+git config --global --list
+
+*********************************************************
+*  Go into directory that git repo should be cloned to  *
+*********************************************************
+git clone https://repo.url/here
+git status
+
+*********************************************************
+*          Created changes/new file to commit           *
+*********************************************************
+git add file.name
+git status
+
+
+*********************************************************
+*          Commit files/changes to local repo           *
+*********************************************************
+git commit -m "commit message here"
+git status
+
+*********************************************************
+*        Push changes to the online hosted repo         *
+*********************************************************
+git show-ref (this shows whether to push to master or main)
+
+git push origin main
+git-status
